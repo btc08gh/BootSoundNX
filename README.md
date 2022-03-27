@@ -4,7 +4,7 @@ A system module that plays sound on the nintendo switch boot!
 
 ## Credits
 
-Credits: [jakibaki](https://github.com/jakibaki) & [TheModdersDen](https://github.com/TheModdersDen)
+Credits: [jakibaki](https://github.com/jakibaki) (Original Author) & [TheModdersDen](https://github.com/TheModdersDen) (Current fork maintainer)
 
 ## Notes
 
