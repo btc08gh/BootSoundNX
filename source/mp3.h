@@ -1,4 +1,4 @@
 extern "C"
 {
-    void playMp3(char* file);
+    void playMp3(char *file);
 }

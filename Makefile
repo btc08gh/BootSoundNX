@@ -5,13 +5,13 @@ $(error "Please set DEVKITPRO in your environment. export DEVKITPRO=<path to>/de
 endif
 
 TOPDIR ?= $(CURDIR)
-include $(DEVKITPRO)/libnx/switch_rules
+include $(DEVKITPRO)/libnx/switch_rules 
 
 TARGET		:=	bootsoundnx
 BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
-INCLUDES	:=	include
+INCLUDES	:=	libs
 EXEFS_SRC	:=	exefs_src
 ROMFS	:=	romfs
 
