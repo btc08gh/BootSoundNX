@@ -13,8 +13,10 @@ jobs:
       - run: echo "Installed dependencies..."
       # Checkout the code from the VCS
       - run: git clone "https://www.github.com/TheModdersDen/BootSoundNX" ~/BootSoundNX
-      - run: cd ~/BootSoundNX
+      - attach_workspace:
+          at: ~/BootSoundNX
       - run: export BOOTSOUNDNX_VERSION=$(cat ./version.txt)
+      - run: echo "BootSoundNX version is $BOOTSOUNDNX_VERSION..."
       - run: echo "Checked out the code..."
       # Build the code
       - run: make build
